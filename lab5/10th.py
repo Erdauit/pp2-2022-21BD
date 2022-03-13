@@ -5,6 +5,6 @@ def camel_split(string):
     return answers
 
 a = input()
-b = erdaut.sub("\s", "_", camel_split(a))
+b = erdaut.sub("\s", "_", camel_split(a).lower())
 
 print(b)
